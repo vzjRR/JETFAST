@@ -1,0 +1,34 @@
+# Generated reports
+reports/*.pdf
+reports/*.html
+reports/*.json
+
+# Runtime logs
+logs/*
+!logs/.gitkeep
+
+# System backups
+backups/*
+!backups/.gitkeep
+
+# Local runtime data
+runtime/
+sessions/
+snapshots/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.crt
+
+# Build output
+bin/
+obj/
+publish/
+
+# OS
+Thumbs.db
+.DS_Store
