@@ -1,34 +1,49 @@
-# Generated reports
+# Reports
 reports/*.pdf
 reports/*.html
 reports/*.json
+reports/*.txt
 
-# Runtime logs
+# Logs
 logs/*
 !logs/.gitkeep
 
-# System backups
+# Backups
 backups/*
 !backups/.gitkeep
 
-# Local runtime data
+# Runtime sessions
+sessions/*
+!sessions/.gitkeep
+
 runtime/
-sessions/
 snapshots/
 
-# Environment / secrets
+# Local system data
+*.reg
+*.evtx
+*.dmp
+
+# Credentials / secrets
 .env
 .env.*
 *.key
 *.pem
 *.pfx
 *.crt
+*.token
 
 # Build output
 bin/
 obj/
 publish/
 
+# Temporary
+*.tmp
+*.temp
+*.bak
+
 # OS
 Thumbs.db
 .DS_Store
+desktop.ini
